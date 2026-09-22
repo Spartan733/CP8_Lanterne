@@ -19,3 +19,12 @@ npm i -g vercel
 1. Allez sur Vecel.com
 2. Cliquez sur Add New
 3. Selectionner Projet
+4. Ajouter l'URL du repository GitHub, si vercel est connecter au compte GitHub, il suffit de seléctionner le repository qu'on veux déployer
+5. Modifier le nom de projet *(si besoin)*, cliquer sur les menus déroulant pour sélectionner/choisir les modifications.
+6. Cliquer sur Deploy pour déployer le projet.
+
+# Environnements
+## Preview
+Preview créer un déploiement d'aperçu en poussant sur une branche et vérifie bien si elle s'exécute avec sa propre URL et son propre environement.
+
+## Production

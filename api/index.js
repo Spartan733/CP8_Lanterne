@@ -35,6 +35,14 @@ function filterCuriosities(items, query, category) {
   });
 }
 
+app.get('/', (_request, response) => {
+  response.json({
+    name: 'Lanterne API',
+    status: 'ok',
+    version,
+  });
+});
+
 app.get(withApiPrefix('/health'), (_request, response) => {
   response.json({
     status: 'ok',
