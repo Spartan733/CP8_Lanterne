@@ -35,11 +35,6 @@ LANTERNE_ENV : production
 LANTERNE_API_VERSION : 1.0.0
 ALLOWED_ORIGIN : https://votre-frontend.example
 
-
-## Déploiement 
-
-## Vérification
-
 ## Mise à jour
 
 ## Retour arrière
