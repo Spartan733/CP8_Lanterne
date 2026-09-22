@@ -40,5 +40,12 @@
     "city": "La Rochelle",
     "category": "mémoire",
     "description": "Une ancienne remise de quai devenue un repère pour les promeneurs curieux."
+  },
+  {
+    "slug": "Vert-pomme",
+    "title": "La pomme est verte",
+    "city": "Barjols",
+    "category": "architecture",
+    "description": "Une exposition discrète au bord de la table, reconnaissable à sa formes et a sa couleurs."
   }
 ]
