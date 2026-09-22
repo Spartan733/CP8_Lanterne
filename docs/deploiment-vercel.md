@@ -28,3 +28,18 @@ npm i -g vercel
 Preview créer un déploiement d'aperçu en poussant sur une branche et vérifie bien si elle s'exécute avec sa propre URL et son propre environement.
 
 ## Production
+
+
+## Variables d'environements
+LANTERNE_ENV : production
+LANTERNE_API_VERSION : 1.0.0
+ALLOWED_ORIGIN : https://votre-frontend.example
+
+
+## Déploiement 
+
+## Vérification
+
+## Mise à jour
+
+## Retour arrière

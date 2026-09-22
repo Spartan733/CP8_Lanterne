@@ -1,1 +1,52 @@
-#
+# Scripts et Configuration
+
+## Package.json
+````
+{
+  "name": "lanterne-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API REST Express des curiosités locales Lanterne",
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "node --watch api/index.js",
+    "check": "node --check api/index.js && node --check tests/api.test.js",
+    "test": "node tests/api.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
+
+````
+## Fichier de vérouillage
+
+## vercel.json
+
+## .env.example
+````
+    LANTERNE_ENV=production
+    LANTERNE_API_VERSION=1.0.0
+    ALLOWED_ORIGIN=https://votre-frontend.example
+````
+## Scripts de controle ou de test
+
+## Commande exécutables
+````
+// Installation du CLI de Vercel
+npm i -g vercel
+
+//Connexion a Vercel
+vercel login
+
+//Déploiement du projet
+vercel
+
+//Déploiement en production
+vercel --prod
+````
